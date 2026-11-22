@@ -1,0 +1,35 @@
+# Core: model, training, evaluation and figure scripts (tested with Python 3.13, PyTorch 2.10, CUDA 12)
+torch>=2.1
+numpy>=1.26
+scipy>=1.11
+pandas>=2.1
+scikit-learn>=1.4
+statsmodels>=0.14
+anndata>=0.10
+scanpy>=1.10
+h5py>=3.10
+mudata>=0.3
+muon>=0.1.6
+matplotlib>=3.8
+seaborn>=0.13
+adjustText>=1.0
+networkx>=3.2
+pymupdf>=1.24            # imported as `fitz`; composes the final figure PDFs
+requests>=2.31
+
+# Reference networks / gene sets
+decoupler>=2.0           # CollecTRI / DoRothEA / MSigDB access
+omnipath>=1.0.8
+gseapy>=1.1
+mygene>=3.2
+
+# Analysis-specific
+lingam>=1.8              # DirectLiNGAM (Supplementary Note 6)
+scvi-tools>=0.20         # totalVI / scVI baselines (the paper ran these in a separate environment)
+wandb>=0.16              # optional training logging (use_wandb in configs; pass --no_wandb to disable)
+
+# Tests
+pytest>=7
+
+# Not installed by default (separate environments in the paper; see docs/REPRODUCING.md):
+#   arboreto (GRNBoost2), cell-gears + torch_geometric (GEARS), scGPT, DeepSEM (git clone; set DEEPSEM_DIR)

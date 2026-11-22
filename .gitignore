@@ -1,0 +1,33 @@
+# data and outputs (see data/README.md and docs/REPRODUCING.md)
+/data/*
+!/data/README.md
+/results/
+/logs/
+# third-party checkouts (e.g. DeepSEM, see DEEPSEM_DIR) and generated prior masks (src/generate_priors.py)
+/external/
+/priors/
+*.h5ad
+*.h5mu
+*.h5seurat
+*.rds
+*.mtx
+*.mtx.gz
+*.npz
+*.npy
+*.pkl
+# checkpoints: only the released weights are tracked
+*.pt
+*.pth
+*.ckpt
+!weights/**/final_model.pt
+# logs / caches
+*.log
+*.out
+*.err
+wandb/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.cache/
+.DS_Store

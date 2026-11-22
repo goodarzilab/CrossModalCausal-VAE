@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying preprint."
+title: "CMC-VAE: Cross-Modal Causal Variational Autoencoder"
+type: software
+license: MIT
+repository-code: "https://github.com/goodarzilab/CrossModalCausal-VAE"
+authors:
+  - family-names: Goudarzi
+    given-names: Shervin
+  - family-names: Nandi
+    given-names: Vikram
+  - family-names: Liu
+    given-names: Nuo
+  - family-names: Goodarzi
+    given-names: Hani
+preferred-citation:
+  type: article
+  title: "Multi-omics causal deep learning reveals regulatory structure while interventions refine perturbation predictions"
+  authors:
+    - family-names: Goudarzi
+      given-names: Shervin
+    - family-names: Nandi
+      given-names: Vikram
+    - family-names: Liu
+      given-names: Nuo
+    - family-names: Goodarzi
+      given-names: Hani
+  journal: "bioRxiv"
+  year: 2026
