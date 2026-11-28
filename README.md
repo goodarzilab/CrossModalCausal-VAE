@@ -1,5 +1,7 @@
 # CMC-VAE: Cross-Modal Causal Variational Autoencoder
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24616930.svg)](https://doi.org/10.5281/zenodo.24616930) [![bioRxiv](https://img.shields.io/badge/bioRxiv-10.64898%2F2026.11.22.768440-b31b1b)](https://doi.org/10.64898/2026.11.22.768440)
+
 CMC-VAE learns a network that links genes and surface proteins from paired single-cell RNA + protein
 (CITE-seq) profiles. Separate encoders map each cell's RNA (2,692 genes) and protein (144 markers)
 measurements to exogenous latent variables. A **linear latent structural causal model** over 128 RNA and 64
@@ -191,6 +193,8 @@ This work was funded by Arc Institute. We thank Chiara Ricci-Tam (Arc Institute)
   url     = {https://www.biorxiv.org/content/10.64898/2026.11.22.768440v1}
 }
 ```
+
+The code release used in the paper (v1.0.0) is archived at Zenodo: [doi:10.5281/zenodo.24616930](https://doi.org/10.5281/zenodo.24616930).
 
 ## License
 

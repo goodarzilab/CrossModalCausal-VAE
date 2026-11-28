@@ -37,6 +37,9 @@ authors:
     affiliation: "Arc Institute; University of California, San Francisco"
 identifiers:
   - type: doi
+    value: "10.5281/zenodo.24616930"
+    description: "Zenodo archive of release v1.0.0"
+  - type: doi
     value: "10.64898/2026.11.22.768440"
     description: "bioRxiv preprint describing CMC-VAE"
   - type: url
