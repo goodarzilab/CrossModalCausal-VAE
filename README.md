@@ -11,7 +11,7 @@ This repository contains the model, the training code, the released weights and 
 every analysis and figure in the paper:
 
 > **Multi-omics causal deep learning reveals regulatory structure while interventions refine perturbation predictions.**
-> Shervin Goudarzi, Vikram Nandi, Nuo Liu & Hani Goodarzi. *bioRxiv* (2026; link added on posting).
+> Shervin Goudarzi, Vikram Nandi, Nuo Liu & Hani Goodarzi. *bioRxiv* (2026). [doi:10.64898/2026.11.22.768440](https://doi.org/10.64898/2026.11.22.768440)
 
 <p align="center">
   <img src="docs/figures/figure1_architecture.png" alt="CMC-VAE architecture" width="85%">
@@ -186,7 +186,9 @@ This work was funded by Arc Institute. We thank Chiara Ricci-Tam (Arc Institute)
   title   = {Multi-omics causal deep learning reveals regulatory structure while interventions refine perturbation predictions},
   author  = {Goudarzi, Shervin and Nandi, Vikram and Liu, Nuo and Goodarzi, Hani},
   journal = {bioRxiv},
-  year    = {2026}
+  year    = {2026},
+  doi     = {10.64898/2026.11.22.768440},
+  url     = {https://www.biorxiv.org/content/10.64898/2026.11.22.768440v1}
 }
 ```
 

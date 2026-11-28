@@ -1,29 +1,65 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the accompanying preprint."
+message: "If you use this software, please cite the accompanying preprint (see preferred-citation)."
 title: "CMC-VAE: Cross-Modal Causal Variational Autoencoder"
 type: software
+version: "1.0.0"
+date-released: "2026-11-27"
 license: MIT
 repository-code: "https://github.com/goodarzilab/CrossModalCausal-VAE"
+abstract: >-
+  CMC-VAE learns a network linking genes and surface proteins from paired single-cell RNA and protein
+  (CITE-seq) profiles. Separate encoders map each modality to exogenous latent variables, a linear latent
+  structural causal model with four gated blocks (RNA to RNA, RNA to protein, protein to RNA, protein to
+  protein) connects them, and linear decoders project every latent connection onto measured genes and
+  proteins. This repository contains the model, training code, released weights and the scripts that
+  reproduce the analyses and figures of the accompanying preprint.
+keywords:
+  - single-cell
+  - CITE-seq
+  - multi-omics
+  - causal inference
+  - variational autoencoder
+  - structural causal model
+  - gene regulatory networks
+  - perturbation prediction
 authors:
   - family-names: Goudarzi
     given-names: Shervin
+    affiliation: "University of California, Berkeley; Arc Institute"
   - family-names: Nandi
     given-names: Vikram
+    affiliation: "University of California, Berkeley; Arc Institute"
   - family-names: Liu
     given-names: Nuo
+    affiliation: "Arc Institute"
   - family-names: Goodarzi
     given-names: Hani
+    affiliation: "Arc Institute; University of California, San Francisco"
+identifiers:
+  - type: doi
+    value: "10.64898/2026.11.22.768440"
+    description: "bioRxiv preprint describing CMC-VAE"
+  - type: url
+    value: "https://www.biorxiv.org/content/10.64898/2026.11.22.768440v1"
+    description: "bioRxiv preprint (version 1)"
 preferred-citation:
   type: article
   title: "Multi-omics causal deep learning reveals regulatory structure while interventions refine perturbation predictions"
   authors:
     - family-names: Goudarzi
       given-names: Shervin
+      affiliation: "University of California, Berkeley; Arc Institute"
     - family-names: Nandi
       given-names: Vikram
+      affiliation: "University of California, Berkeley; Arc Institute"
     - family-names: Liu
       given-names: Nuo
+      affiliation: "Arc Institute"
     - family-names: Goodarzi
       given-names: Hani
+      affiliation: "Arc Institute; University of California, San Francisco"
   journal: "bioRxiv"
   year: 2026
+  month: 11
+  doi: "10.64898/2026.11.22.768440"
+  url: "https://www.biorxiv.org/content/10.64898/2026.11.22.768440v1"
